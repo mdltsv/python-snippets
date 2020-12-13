@@ -1,0 +1,9 @@
+import qrcode
+# sample data
+data = "https://yandex.ru/"
+# destination file name
+filename = "yandex.png"
+# generaing QR-code
+img = qrcode.make(data)
+# save img to file
+img.save(filename)
