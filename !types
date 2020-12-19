@@ -1,0 +1,15 @@
+a=None
+b=1  # int
+c=True  # boolean
+d=1.0  # float
+e='stroka'  # str
+f=list()  # list
+_f=[]  # list
+g=tuple()  # tuple
+_g=()  # tuple
+h=dict()  # dictionary
+_h={}  # dictionary
+i=complex()  # complex number
+j=set()
+_j=
+k=
