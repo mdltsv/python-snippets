@@ -1,15 +1,21 @@
 a=None
-b=1  # int
 c=True  # boolean
+b=1  # int
 d=1.0  # float
+i=complex()  # complex number
 e='stroka'  # str
+
 f=list()  # list
-_f=[]  # list
+_f=[]
 g=tuple()  # tuple
-_g=()  # tuple
+_g=()
+_g_=1,2,3
+
 h=dict()  # dictionary
 _h={}  # dictionary
-i=complex()  # complex number
+
 j=set()
 _j=
 k=
+
+l=b'each_character_takes_1_byte'
