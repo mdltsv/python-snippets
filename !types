@@ -14,8 +14,8 @@ _g_=1,2,3
 h=dict()  # dictionary
 _h={}  # dictionary
 
-j=set()
-_j=
-k=
+j=set()  # set
+_j={1,2,3,4}
 
-l=b'each_character_takes_1_byte'
+l=b'each_character_takes_1_byte'  # bytes
+m=bytearray([<Строка>, <Кодировка>[, <Обработка ошибок>]])  # bytearray
