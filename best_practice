@@ -1,0 +1,9 @@
+'''1 Переворачивает строку, используя срез 
+my_string = "ABCDE"
+reversed_string = my_string[::-1]
+
+'''2 Поиск уникальных в строке
+my_string = "aavvccccddddeee"
+temp_set = set(my_string)
+new_string = ''.join(temp_set)
+
