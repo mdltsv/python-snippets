@@ -7,3 +7,23 @@ my_string = "aavvccccddddeee"
 temp_set = set(my_string)
 new_string = ''.join(temp_set)
 
+'''3 Проверка использования памяти объектом
+import sys
+num = 21
+print(sys.getsizeof(num))
+
+'''4 Время части кода
+import time
+start_time = time.time()
+a, b = 1,2
+c = a+ b
+end_time = time.time()
+time_taken_in_micro = (end_time- start_time)*(10**6)
+
+'''5 Генерирует n случайных выборок из указанного списка, используя библиотеку random:
+import random
+my_list = ['a', 'b', 'c', 'd', 'e']
+num_samples = 2
+samples = random.sample(my_list,num_samples)
+print(samples)
+
