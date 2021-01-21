@@ -1,4 +1,71 @@
-import sys
-import collctions  # Counter - изучить
+"""
+В Python встроено множество библиотек, но пользователями созданы более
+200 тыс. дополнительных.
+"""
+
+"""1"""
+"""Важные встроенные"""
+import this  # Дзен Python Тима Питерса (PEP 20)
+import sys  # Для исключений, работы с системой
+from sys import argv  # Часто вижу!
+import re  # Для работы с регулярными выражениями
+import os
+import units
+import math
 import random
-import secrets
+import secrets  # Начиная с 3.6 как улучшения random (not so random)
+import getpass  # Скрывает вводимые символы. Когд input(), например
+
+"""2"""
+"""Важные сторонние"""
+import pandas  # Манипуляции с данными (построена на Numpy)
+import numpy  # Манипуляции с массивами (инструменты линала, статистики и т.д.)
+import scipy  # Для научных расчётов (допы для линала и статистики)
+import arrayy  # Модуль, в котором реализован тип данных - массив (array)
+
+"""3"""
+"""Парсинг (Скрейпинг - частный случай)"""
+import requests  # Максимально упрощает веб-запросы, оставаясь при этом
+# чрезвычайно мощным и разноплановым инструментом. Часть самой скачиваемой
+# библиотеки urllib3.
+import urllib  # М
+import beautifulsoup
+
+"""4"""
+"""Визуализация"""
+import dash  # Идеальное решение для создания приложений по визуализации.
+# Смесь Flask, Plotly.js и React.js. Красиво и без JavaScript!
+import matplotlib  #
+import plotly  #
+
+"""5"""
+"""Тестирование"""
+import pytest  # Модуль для тестирования
+
+
+"""6"""
+"""Базы данных"""
+import pypyodbc  # БД
+import odbc  # SQL
+import SQLalchemy  # SQL. Работа с БД в ОО-стиле
+
+"""7"""
+"""Работа со временем"""
+import time  #
+import datetime  #
+import dateutil  # Когда заканчивается datetime, начинается dateutil.
+
+from __future__ import print_function
+from pathlib import Path
+
+
+
+import pyqt5  # GUI
+
+import pprint  # Python2?
+import pylab  # Python2?
+
+import keyword  # Поясняет, какие ключевые слова уже зарезервированы языком?
+import intertools  #
+
+import collctions  # Counter - изучить
